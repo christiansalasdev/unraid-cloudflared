@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>cloudflared</Name>
+  <Repository>cloudflare/cloudflared</Repository>
+  <Registry>https://hub.docker.com/r/cloudflare/cloudflared</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI>https://one.dash.cloudflare.com/</WebUI>
+  <TemplateURL/>
+  <Icon>https://icons-for-free.com/iconfiles/png/512/super+tiny+icons+cloudflare-1324450714381209833.png</Icon>
+  <ExtraParams/>
+  <PostArgs>tunnel --no-autoupdate run --token PUT_TOKEN_HERE</PostArgs>
+  <CPUset/>
+  <DateInstalled>1699078849</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+</Container>
